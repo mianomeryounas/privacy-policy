@@ -6,7 +6,7 @@ A **free**, **open-source**, **offline-capable** Privacy Policy Generator for ap
 
 ---
 
-## Features
+## Features 
 
 - **Instant Generation** — Fill a form, get a complete privacy policy in seconds
 - **Fully Offline** — Works without internet after the initial page load
