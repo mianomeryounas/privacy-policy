@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free Privacy Policy Generator — Create a complete, professional privacy policy for your app or website instantly. No signup, no cost, fully offline.">
+  <meta name="keywords" content="privacy policy generator, free privacy policy, GDPR, CCPA, app privacy policy, website privacy policy">
+  <meta name="author" content="Privacy Policy Generator">
+  <meta name="theme-color" content="#4f46e5">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Free Privacy Policy Generator">
+  <meta property="og:description" content="Generate a professional privacy policy for your app or website in seconds. Free, no signup required.">
+  <meta property="og:type" content="website">
+
+  <title>Free Privacy Policy Generator</title>
+
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        </svg>
+        PolicyGen
+        <span class="header-badge">FREE</span>
+      </a>
+      <div class="header-links">
+        <a href="https://github.com/mianomeryounas/privacy-policy" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Main App ===== -->
+  <main class="app-container">
+
+    <!-- Form Panel -->
+    <section class="panel form-panel">
+      <div class="panel-header">
+        <h2>Configure Your Policy</h2>
+      </div>
+      <div class="panel-body">
+        <form id="policy-form" novalidate>
+
+          <!-- App Details -->
+          <div class="form-section">
+            <div class="form-section-title">App Details</div>
+
+            <div class="form-group">
+              <label for="appName">App Name *</label>
+              <input type="text" id="appName" name="appName" placeholder="e.g. My Awesome App" required>
+            </div>
+
+            <div class="form-group">
+              <label for="companyName">Company / Developer Name</label>
+              <input type="text" id="companyName" name="companyName" placeholder="e.g. Acme Inc.">
+            </div>
+
+            <div class="form-group">
+              <label for="website">Website</label>
+              <input type="url" id="website" name="website" placeholder="e.g. https://example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="contactEmail">Contact Email</label>
+              <input type="email" id="contactEmail" name="contactEmail" placeholder="e.g. privacy@example.com">
+            </div>
+          </div>
+
+          <!-- Data Collected -->
+          <div class="form-section">
+            <div class="form-section-title">Data Collected</div>
+
+            <div class="checkbox-grid">
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="name">
+                <span>Name</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="email">
+                <span>Email</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="phone">
+                <span>Phone</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="location">
+                <span>Location</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="device_info">
+                <span>Device Info</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="usage_data">
+                <span>Usage Data</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="camera">
+                <span>Camera</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="microphone">
+                <span>Microphone</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="contacts">
+                <span>Contacts</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="storage">
+                <span>Storage / Files</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="financial">
+                <span>Financial Info</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="health">
+                <span>Health Data</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="biometric">
+                <span>Biometric Data</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="social_media">
+                <span>Social Media</span>
+              </label>
+              <label class="checkbox-item">
+                <input type="checkbox" name="dataCollected" value="ip_address">
+                <span>IP Address</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Features & Services -->
+          <div class="form-section">
+            <div class="form-section-title">Features &amp; Services</div>
+
+            <div class="toggle-group">
+              <label class="toggle-item">
+                <div>
+                  <div class="toggle-label">Analytics</div>
+                  <div class="toggle-desc">App collects analytics data</div>
+                </div>
+                <div class="toggle-switch">
+                  <input type="checkbox" id="analytics" name="analytics">
+                  <span class="toggle-slider"></span>
+                </div>
+              </label>
+
+              <label class="toggle-item">
+                <div>
+                  <div class="toggle-label">Advertisements</div>
+                  <div class="toggle-desc">App displays ads</div>
+                </div>
+                <div class="toggle-switch">
+                  <input type="checkbox" id="ads" name="ads">
+                  <span class="toggle-slider"></span>
+                </div>
+              </label>
+
+              <label class="toggle-item">
+                <div>
+                  <div class="toggle-label">Cookies</div>
+                  <div class="toggle-desc">App uses cookies or tracking</div>
+                </div>
+                <div class="toggle-switch">
+                  <input type="checkbox" id="cookies" name="cookies">
+                  <span class="toggle-slider"></span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Third-party & Retention -->
+          <div class="form-section">
+            <div class="form-section-title">Additional Details</div>
+
+            <div class="form-group">
+              <label for="thirdPartyServices">Third-Party Services</label>
+              <textarea id="thirdPartyServices" name="thirdPartyServices" placeholder="e.g. Google Analytics, Firebase, Stripe&#10;(one per line or comma-separated)"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="dataRetention">Data Retention Period</label>
+              <input type="text" id="dataRetention" name="dataRetention" placeholder="e.g. 2 years after account deletion">
+            </div>
+          </div>
+
+          <!-- Privacy Flags -->
+          <div class="form-section">
+            <div class="form-section-title">Privacy Flags</div>
+
+            <div class="toggle-group">
+              <label class="toggle-item">
+                <div>
+                  <div class="toggle-label">Children's Data</div>
+                  <div class="toggle-desc">App collects data from children under 13</div>
+                </div>
+                <div class="toggle-switch">
+                  <input type="checkbox" id="childrenPrivacy" name="childrenPrivacy">
+                  <span class="toggle-slider"></span>
+                </div>
+              </label>
+
+              <label class="toggle-item">
+                <div>
+                  <div class="toggle-label">Data Selling</div>
+                  <div class="toggle-desc">Data may be sold to third parties</div>
+                </div>
+                <div class="toggle-switch">
+                  <input type="checkbox" id="dataSelling" name="dataSelling">
+                  <span class="toggle-slider"></span>
+                </div>
+              </label>
+
+              <label class="toggle-item">
+                <div>
+                  <div class="toggle-label">International Transfers</div>
+                  <div class="toggle-desc">Data is transferred internationally</div>
+                </div>
+                <div class="toggle-switch">
+                  <input type="checkbox" id="internationalTransfer" name="internationalTransfer">
+                  <span class="toggle-slider"></span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Generate Button -->
+          <button type="submit" class="generate-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            Generate Privacy Policy
+          </button>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- Preview Panel -->
+    <section class="panel preview-panel">
+      <div class="panel-header">
+        <h2>Preview</h2>
+        <div class="preview-actions">
+          <button type="button" id="btn-copy" class="action-btn" title="Copy to clipboard">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+            <span>Copy</span>
+          </button>
+          <button type="button" id="btn-download" class="action-btn" title="Download as .txt">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            <span>Download</span>
+          </button>
+        </div>
+      </div>
+      <div class="panel-body">
+        <div id="preview-content" class="preview-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+          <p>Your privacy policy will appear here</p>
+          <p class="hint">Fill in the form and click "Generate Privacy Policy"</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>
+      Built for the community &mdash; 100% free, no data collected, works offline.
+      <br>
+      <a href="https://github.com/mianomeryounas/privacy-policy" target="_blank" rel="noopener noreferrer">
+        View on GitHub
+      </a>
+    </p>
+  </footer>
+
+  <!-- Scripts (order matters) -->
+  <script src="templates.js"></script>
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
