@@ -5,7 +5,7 @@
  */
 
 const TEMPLATES = {
-  header: `# Privacy Policy for {app_name}
+    header: `# Privacy Policy for {app_name}
 
 **Last updated:** {date}
 
@@ -13,31 +13,31 @@ This Privacy Policy describes how **{company_name}** ("we," "us," or "our") coll
 
 By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not access or use the Service.`,
 
-  informationCollect: `## Information We Collect
+    informationCollect: `## Information We Collect
 
 We collect the following types of information:
 
 {data_collected_list}`,
 
-  dataCollectedItems: {
-    name: "- **Personal Identification Information:** Your name, to personalize your experience and identify your account.",
-    email: "- **Email Address:** Your email address, used for account verification, communication, and support.",
-    phone: "- **Phone Number:** Your phone number, used for account security, verification, or direct communication.",
-    location: "- **Location Data:** Your approximate or precise location, used to provide location-based services and improve relevance.",
-    device_info: "- **Device Information:** Information about the device you use, including device model, operating system, unique device identifiers, and mobile network information.",
-    usage_data: "- **Usage Data:** Information about how you use the Service, including access times, pages viewed, features used, and referring URLs.",
-    camera: "- **Camera Access:** Access to your device camera, used for features that require photo or video capture.",
-    microphone: "- **Microphone Access:** Access to your device microphone, used for features that require audio recording.",
-    contacts: "- **Contacts:** Access to your contacts list, used to help you connect with others on the Service.",
-    storage: "- **Storage/Files:** Access to your device storage, used to save or upload files as part of the Service.",
-    financial: "- **Financial Information:** Payment card details or billing information, used to process transactions securely.",
-    health: "- **Health Data:** Health-related information you provide, used in accordance with applicable health data regulations.",
-    biometric: "- **Biometric Data:** Fingerprint, facial recognition, or other biometric identifiers, used for authentication and security purposes.",
-    social_media: "- **Social Media Profiles:** Information from your social media accounts when you link them with our Service.",
-    ip_address: "- **IP Address:** Your Internet Protocol address, used for security, analytics, and approximate geolocation.",
-  },
+    dataCollectedItems: {
+        name: "- **Personal Identification Information:** Your name, to personalize your experience and identify your account.",
+        email: "- **Email Address:** Your email address, used for account verification, communication, and support.",
+        phone: "- **Phone Number:** Your phone number, used for account security, verification, or direct communication.",
+        location: "- **Location Data:** Your approximate or precise location, used to provide location-based services and improve relevance.",
+        device_info: "- **Device Information:** Information about the device you use, including device model, operating system, unique device identifiers, and mobile network information.",
+        usage_data: "- **Usage Data:** Information about how you use the Service, including access times, pages viewed, features used, and referring URLs.",
+        camera: "- **Camera Access:** Access to your device camera, used for features that require photo or video capture.",
+        microphone: "- **Microphone Access:** Access to your device microphone, used for features that require audio recording.",
+        contacts: "- **Contacts:** Access to your contacts list, used to help you connect with others on the Service.",
+        storage: "- **Storage/Files:** Access to your device storage, used to save or upload files as part of the Service.",
+        financial: "- **Financial Information:** Payment card details or billing information, used to process transactions securely.",
+        health: "- **Health Data:** Health-related information you provide, used in accordance with applicable health data regulations.",
+        biometric: "- **Biometric Data:** Fingerprint, facial recognition, or other biometric identifiers, used for authentication and security purposes.",
+        social_media: "- **Social Media Profiles:** Information from your social media accounts when you link them with our Service.",
+        ip_address: "- **IP Address:** Your Internet Protocol address, used for security, analytics, and approximate geolocation.",
+    },
 
-  howWeUse: `## How We Use Your Information
+    howWeUse: `## How We Use Your Information
 
 We use the information we collect for the following purposes:
 
@@ -48,13 +48,13 @@ We use the information we collect for the following purposes:
 - To detect, investigate, and prevent fraudulent transactions and other illegal activities
 - To comply with legal obligations`,
 
-  analyticsClause: `
+    analyticsClause: `
 - To collect analytics data to understand how users interact with the Service and improve its performance`,
 
-  adsClause: `
+    adsClause: `
 - To deliver personalized advertisements and measure the effectiveness of ad campaigns`,
 
-  cookies: `## Cookies and Tracking Technologies
+    cookies: `## Cookies and Tracking Technologies
 
 We use cookies and similar tracking technologies to track activity on our Service and to hold certain information.
 
@@ -68,7 +68,7 @@ We use cookies and similar tracking technologies to track activity on our Servic
 
 **Managing cookies:** Most web browsers allow you to control cookies through their settings. You can set your browser to refuse cookies or alert you when cookies are being sent. Note that disabling cookies may affect the functionality of the Service.`,
 
-  thirdPartyServices: `## Third-Party Services
+    thirdPartyServices: `## Third-Party Services
 
 We may employ third-party companies and individuals to facilitate our Service, provide the Service on our behalf, perform Service-related tasks, or assist us in analyzing how our Service is used.
 
@@ -80,7 +80,7 @@ These third parties may have access to your personal information only to perform
 
 We encourage you to review the privacy policies of any third-party services you interact with.`,
 
-  dataRetention: `## Data Retention
+    dataRetention: `## Data Retention
 
 We will retain your personal information only for as long as is necessary for the purposes set out in this Privacy Policy.
 
@@ -88,7 +88,7 @@ We will retain your personal information only for as long as is necessary for th
 
 When your personal information is no longer needed, we will securely delete or anonymize it. If deletion is not possible (for example, because your information has been stored in backup archives), we will securely store your information and isolate it from any further processing until deletion is possible.`,
 
-  dataSharing: `## Data Sharing and Disclosure
+    dataSharing: `## Data Sharing and Disclosure
 
 We do not sell, trade, or rent your personal identification information to others, except as described in this Privacy Policy.
 
@@ -99,12 +99,12 @@ We may share your information in the following circumstances:
 - **Business transfers:** If we are involved in a merger, acquisition, or asset sale, your personal information may be transferred. We will provide notice before your information is transferred and becomes subject to a different privacy policy.
 - **Service providers:** We may share your information with third-party vendors who assist us in operating the Service, conducting our business, or serving users, so long as they agree to keep your information confidential.`,
 
-  dataSelling: `
+    dataSelling: `
 ### Sale of Personal Data
 
 We may sell or share certain categories of your personal data with third parties for business or commercial purposes. Under applicable data protection laws (such as the California Consumer Privacy Act), you have the right to opt out of the sale of your personal data. To exercise this right, please contact us using the information provided below.`,
 
-  userRights: `## Your Rights
+    userRights: `## Your Rights
 
 Depending on your location and applicable laws, you may have the following rights regarding your personal information:
 
@@ -118,7 +118,7 @@ Depending on your location and applicable laws, you may have the following right
 
 To exercise any of these rights, please contact us at **{contact_email}**. We will respond to your request within a reasonable timeframe and in accordance with applicable law.`,
 
-  childrenPrivacy: `## Children's Privacy
+    childrenPrivacy: `## Children's Privacy
 
 Our Service is not intended for use by children under the age of 13 (or the applicable age of consent in your jurisdiction).
 
@@ -126,7 +126,7 @@ We do not knowingly collect personally identifiable information from children un
 
 If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us at **{contact_email}** so that we can take the necessary actions.`,
 
-  childrenPrivacyEnabled: `## Children's Privacy
+    childrenPrivacyEnabled: `## Children's Privacy
 
 Our Service may collect information from children under the age of 13 (or the applicable age of consent in your jurisdiction). We take additional steps to protect children's privacy, including:
 
@@ -138,7 +138,7 @@ We comply with applicable laws and regulations regarding children's privacy, inc
 
 If you are a parent or guardian and have questions about our practices regarding children's data, please contact us at **{contact_email}**.`,
 
-  internationalTransfers: `## International Data Transfers
+    internationalTransfers: `## International Data Transfers
 
 Your information may be transferred to — and maintained on — computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those in your jurisdiction.
 
@@ -150,13 +150,13 @@ We take appropriate safeguards to ensure that your personal information remains 
 - Ensuring that third-party service providers comply with equivalent data protection standards
 - Applying technical and organizational security measures to protect your data during transfer`,
 
-  security: `## Security
+    security: `## Security
 
 The security of your personal information is important to us. We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
 
 However, please be aware that no method of transmission over the Internet or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security.`,
 
-  changes: `## Changes to This Privacy Policy
+    changes: `## Changes to This Privacy Policy
 
 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this Privacy Policy.
 
@@ -164,7 +164,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
 
 Your continued use of the Service after any modifications to this Privacy Policy will constitute your acknowledgment of the modifications and your consent to abide by the modified Privacy Policy.`,
 
-  contact: `## Contact Us
+    contact: `## Contact Us
 
 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:
 
@@ -176,5 +176,5 @@ If you have any questions or concerns about this Privacy Policy or our data prac
 
 // Make available globally
 if (typeof window !== "undefined") {
-  window.TEMPLATES = TEMPLATES;
+    window.TEMPLATES = TEMPLATES;
 }
